@@ -35,10 +35,12 @@
             #div-box{
                 background-color: #fff;
                 color: #bbb;
+
                 border-radius: 0;
                 padding: 14px;
                 margin: 6px 6px;
                 box-shadow: 0px 10px 16px -16px black;
+                
             }
             hr{
                 margin: 6px 6px;
@@ -59,25 +61,38 @@
                 border-radius: 0;
                 box-shadow: 0px 10px 16px -14px black;
             }
-            .thumbnail{
-                
-                margin-left: 5px;
-                text-align: center;
-            }
+
             #div-footer{
                 background-color: #333333;
                 color: #aaa;
-                margin-top: 60px;
+/*                margin-top: 60px;*/
                 margin-bottom: 0;
                 border-radius: 0;
+            }
+            #nav-footer{
+                background-color: #333333;
+                border-radius: 0;
+                color: #eee;
+                padding: 16px;
+                margin-top: 60px;
+                margin-bottom: 0;
+            }
+            #nav-brand{
+                background-color: #333333;
+                border-radius: 0;
+                color: #eee;
+                padding: 16px;
+                margin-bottom: 0;
             }
         </style>
     </head>
     <body>
         
            
-        <nav class="navbar navbar-reverse navbar-fluid">
-            <h1>blalalal</h1>
+        <nav class="navbar navbar-fluid " id="nav-brand">
+            
+                <h1>Brand</h1>
+            
         </nav>
 
         <nav class="navbar navbar-fluid" id="navbar-menu">
@@ -91,11 +106,11 @@
                       <span class="icon-bar"></span> 
                       <span class="icon-bar"></span> 
                     </button>
-                  <a class="navbar-brand hidden-md hidden-sm hidden-lg" title="Theme" href="#"><span class="glyphicon glyphicon-"Theme</a>
+                  <a class="navbar-brand hidden-md hidden-sm hidden-lg" title="Theme" href="#"><span class="glyphicon glyphicon-asterisk"Theme</a>
                   <div class="margindash pull-right hidden-lg hidden-md hidden-sm">
 
                     <!-- Button trigger modal --> 
-                    <a href="" class="write" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-check font24"></span></a> <a href="register.php" class="write"><span class="glyphicon glyphicon-user font24"></span></a>
+                    <a href="" class="write" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-search font24"></span></a> <a href="register.php" class="write"><span class="glyphicon glyphicon-user font24"></span></a>
               </div>
                 </div>
     
@@ -135,7 +150,7 @@
                 <div class="col-md-8">
                     <div class="row">
                         <div class="thumbnail" id="div-box">
-                            <h4>Div box</h4>
+                            <h4>Test 02222222</h4>
                             <hr>
                             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                         </div>
@@ -173,13 +188,9 @@
             </div>
         </div>
         <footer>
-            <nav class="navbar navbar-fluid" id="div-footer">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>footer</h2>
-                    </div>
-                </div>
-            </div>
+            <nav class="navbar navbar-fluid " id="nav-footer">
+                <h1>Footer</h1>
+            </nav>
         </footer>
         
     </body>
